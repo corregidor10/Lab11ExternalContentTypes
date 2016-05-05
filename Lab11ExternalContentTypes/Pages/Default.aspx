@@ -29,7 +29,7 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
- <input type="number" id="txtDuracion"/>
+ <input type="number" id="txtDuracion" style="color: gray"/>
     <input id="btnCursos" type="button" value="Cursos" />
     <div id="displayDiv"/>
 
