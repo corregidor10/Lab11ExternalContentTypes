@@ -10,7 +10,7 @@ function GetAlumnos() {
 
     $("#displayDiv").append($("<img>", { src: "_layouts/images/gears_an.gif" }));
 
-    var requestUri = _spPageContextInfo.webAbsoluteUrl + "/_api/lists/getbytitle('Curso')/items?$filter=duracion gt" + duracion;
+    var requestUri = _spPageContextInfo.webAbsoluteUrl + "/_api/lists/getByTitle('Curso')/items?$filter=duracion gt" + duracion;
 
 
     $.ajax({
